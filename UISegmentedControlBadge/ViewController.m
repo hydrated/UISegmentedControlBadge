@@ -33,7 +33,7 @@
 
 - (void)initialUISegmentedControlBadge
 {
-    segmentedControl = [[UISegmentedControlBadge alloc] initWithItems:[[NSArray alloc]initWithObjects:@"私 訊", @"官 方", @"回 應", nil]];
+    segmentedControl = [[UISegmentedControlBadge alloc] initWithItems:[[NSArray alloc]initWithObjects:@"Tab", @"Fallout", @"Legacy", nil]];
     segmentedControl.frame = CGRectMake(0, 0, 200, 30);
     self.navigationItem.titleView = segmentedControl;
     segmentedControl.selectedSegmentIndex = 0;
